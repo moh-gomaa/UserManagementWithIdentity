@@ -11,6 +11,6 @@ namespace UserManagementWIthIdentity.Models
         [Required, MaxLength (150)]
         public string LastName { get; set; }
 
-        public byte[] ProfilePicture { get; set; }
+        public byte[]? ProfilePicture { get; set; }
     }
 }
